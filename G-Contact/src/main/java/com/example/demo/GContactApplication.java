@@ -32,6 +32,24 @@ public class GContactApplication implements CommandLineRunner {
 				"photo1.png"));
 		contactRepository.save(
 				new Contact("zouari", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
+		contactRepository.save(
+				new Contact("foulen", "ali", d.parse("30/09/1995"), "ali.zouari@esprit.tn", 21455456, "photo2.png"));
 
 		contactRepository.findAll().forEach(c -> {
 			System.out.println(c.getNom());
